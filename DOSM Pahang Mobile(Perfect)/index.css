@@ -1,0 +1,806 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000000;
+}
+
+h2{
+    position: absolute;
+    width: 291px;
+    height: 59px;
+    left: 24px;
+    top: 47px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+
+    color: #DEDEDE;
+
+}
+
+.search{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 319px;
+    top: 95px;
+}
+
+.search img{
+    width: 30px;
+    height: 30px;
+}
+
+.content-kdnk{
+    position: absolute;
+    width: 338px;
+    height: 228px;
+    left: 18px;
+    top: 135px;
+
+    background: #F9F2ED;
+    border-radius: 15px;
+}
+
+.content-kdnk .subheading-box{
+    position: absolute;
+    width: 281px;
+    height: 70px;
+    left: 27px;
+    top: 17px;
+
+    background: #0F4392;
+    border-radius: 10px;
+}
+
+.content-kdnk .subheading-box p#keluaran{
+    position: absolute;
+    width: 134px;
+    height: 40px;
+    left: 9px;
+    top: 5px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+
+    color: #DFFF9A;
+}
+
+.content-kdnk .subheading-box p#year{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 9px;
+    top: 45px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+
+
+    color: #DFFF9A;
+}
+
+.content-kdnk .subheading-box p#RM{
+    position: absolute;
+    width: 122px;
+    height: 30px;
+    left: 152px;
+    top: 11px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.content-kdnk .subheading-box p#num{
+    position: absolute;
+    width: 122px;
+    height: 30px;
+    left: 192px;
+    top: 11px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.content-kdnk .subheading-box p#juta{
+    position: absolute;
+    width: 44px;
+    height: 23px;
+    left: 201px;
+    top: 39px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+p.subheading{
+    position: absolute;
+    width: 300px;
+    height: 23px;
+    left: 45px;
+    top: 99px;
+
+
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+
+    color: #293462;
+}
+
+.content-kdnk .item1{
+    position: absolute;
+    width: 59px;
+    height: 89px;
+    left: 19px;
+    top: 127px;
+}
+
+#pertanian{
+    position: absolute;
+    width: 46px;
+    height: 65px;
+    left: 0px;
+    top: 5px;
+    
+    background: #8CEB9B;;
+}
+
+#pertanian #RM{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    left: 15px;
+    top: 1px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#pertanian #num{
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    left: 5px;
+    top: 16px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#pertanian img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 8px;
+    top: 30px;
+}
+
+.item1 p{
+    position: absolute;
+    width: 36px;
+    height: 20px;
+    left: 5px;
+    top: 70px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    /* identical to box height, or 250% */
+
+
+    color: #272727;
+
+}
+
+.content-kdnk .item2{
+    position: absolute;
+    width: 57px;
+    height: 92px;    
+    left: 85px;
+    top: 127px;
+}
+
+#perhubungan{
+    position: absolute;
+    width: 46px;
+    height: 65px;
+    left: 0px;
+    top: 5px;
+
+    background: #3AB0FF;
+}
+
+#perhubungan #RM{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    left: 15px;
+    top: 1px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF; 
+}
+
+#perhubungan #num{
+    position: absolute;
+    width: 24px;
+    height: 15px;
+    left: 11px;
+    top: 16px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#perhubungan img{
+    position: absolute;
+    width: 37px;
+    height: 33px;
+    left: 4px;
+    top: 33px;
+}
+
+.item2 p{
+    position: absolute;
+    width: 57px;
+    height: 23px;
+    left: -7px;
+    top: 74px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    /* or 125% */
+
+
+    color: #272727;
+
+}
+
+.content-kdnk .item3{
+    position: absolute;
+    left: 148px;
+    top: 127px;
+}
+
+#pembuatan{
+    position: absolute;
+    width: 46px;
+    height: 65px;
+    left: 0px;
+    top: 5px;
+
+    background: #FFB562;
+}
+
+#pembuatan #RM{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    left: 15px;
+    top: 1px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#pembuatan #num{
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    left: 5px;
+    top: 16px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#pembuatan img{
+    position: absolute;
+    width: 36px;
+    height: 27px;
+    left: 5px;
+    top: 33px;
+}
+
+.item3 p{
+    position: absolute;
+    width: 43px;
+    height: 20px;
+    left: 2px;
+    top: 70px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    /* identical to box height, or 250% */
+
+
+    color: #272727;
+}
+
+.item4{
+    position: absolute;
+    left: 212px;
+    top: 127px;
+}
+
+#pembinaan{
+    position: absolute;
+    width: 46px;
+    height: 65px;
+    left: 0px;
+    top: 5px;
+
+    background: #96BAFF;
+}
+
+#pembinaan #RM{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    left: 15px;
+    top: 1px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#pembinaan #num{
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    left: 8px;
+    top: 16px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#pembinaan img{
+    position: absolute;
+    width: 38px;
+    height: 32px;
+    left: 4px;
+    top: 30px;
+}
+
+.item4 p{
+    position: absolute;
+    width: 41px;
+    height: 20px;
+    left: 3px;
+    top: 70px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    /* identical to box height, or 250% */
+
+    color: #272727;
+}
+
+.item5{
+    position: absolute;
+    left: 274px;
+    top: 127px;
+}
+
+#perkhidmatan{
+    position: absolute;
+    width: 46px;
+    height: 65px;
+    left: 0px;
+    top: 5px;
+
+    background: #F87474;
+}
+
+#perkhidmatan #RM{
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    left: 14px;
+    top: 1px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#perkhidmatan #num{
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    left: 2px;
+    top: 16px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#perkhidmatan img{
+    position: absolute;
+    width: 33px;
+    height: 30px;
+    left: 8px;
+    top: 32px;
+}
+
+.item5 p{
+    position: absolute;
+    width: 52px;
+    height: 20px;
+    left: -2px;
+    top: 70px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    /* identical to box height, or 250% */
+
+
+    color: #272727;
+
+}
+.buttons{
+    position: absolute;
+    left: 21px;
+    top: 0px;
+}
+
+.button1{
+    position: absolute;
+    width: 68px;
+    height: 87px;
+    left: 0px;
+    top: 424px;
+}
+
+#penduduk{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+
+    background: #FF6767;
+    border-radius: 10px;
+}
+
+#penduduk img{
+    position: absolute;
+    width: 40px;
+    height: 32px;
+    left: 13px;
+    top: 20px;
+
+}
+
+.button1 p{
+    position: absolute;
+    width: 56px;
+    height: 15px;
+    left: 4px;
+    top: 72px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: white;
+}
+
+.button2{
+    position: absolute;
+    width: 65px;
+    height: 87px;
+    left: 91px;
+    top: 424px;
+}
+
+#perumahan{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFD978;
+    border-radius: 10px;
+}
+
+#perumahan img{
+    position: absolute;
+    width: 36px;
+    height: 37px;
+    left: 15px;
+    top: 14px;
+}
+
+.button2 p{
+    position: absolute;
+    width: 63px;
+    height: 15px;
+    left: 0px;
+    top: 72px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: white;
+}
+
+.button3{
+    position: absolute;
+    width: 75px;
+    height: 87px;
+    left: 182px;
+    top: 424px;
+}
+
+#guna_tenaga{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+
+    background: #69E27C;
+    border-radius: 10px;
+}
+
+#guna_tenaga img{
+    position: absolute;
+    width: 39px;
+    height: 37px;
+    left: 13px;
+    top: 14px;
+}
+
+.button3 p{
+    position: absolute;
+    width: 75px;
+    height: 15px;
+    left: -5px;
+    top: 72px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: white;
+}
+
+.button4{
+    position: absolute;
+    width: 68px;
+    height: 87px;
+    left: 273px;
+    top: 424px;
+
+}
+
+#pendapatan{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+
+    background: #7DC8FF;
+    border-radius: 10px;
+}
+
+#pendapatan img{
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    left: 12px;
+    top: 12px;
+
+}
+
+.button4 p{
+    position: absolute;
+    width: 68px;
+    height: 15px;
+    left: 0px;
+    top: 72px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: white;
+}
+
+.infographic h3{
+    position: absolute;
+    width: 133px;
+    height: 29px;
+    left: 0px;
+    top: 542px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #DEDEDE;
+
+}
+
+.infographic img{
+    position: absolute;
+    width: 313px;
+    height: 204px;
+    left: 11px;
+    top: 579px;
+    padding-bottom: 29px;
+
+    border-radius: 5px;
+}
+
+a#source{
+    color: navajowhite;
+    position: absolute;
+    width: max-content;
+    height: auto;
+    top: 370px;  
+}

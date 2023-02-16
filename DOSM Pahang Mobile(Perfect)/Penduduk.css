@@ -1,0 +1,1101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000000;
+}
+
+.HomeIcon .dot{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 22px;
+    top: 26px;
+   
+
+    background: rgba(97, 97, 97, 0.61);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.HomeIcon img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: 35px;
+}
+
+.header h3{
+    position: absolute;
+    width: 92px;
+    height: 20px;
+    left: 136px;
+    top: 82px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+
+    color: #DEDEDE;
+
+}
+
+.Jantina #jantina{
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    left: 37px;
+    top:105px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #FFFFFF;
+}
+
+.content-jantina{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 137px;
+    left: 24px;
+    top: 125px;
+
+    background: #1E1E1E;
+    border: 1px solid #1745E8;
+    box-shadow: 0px 4px 4px rgba(250, 201, 201, 0.25);
+    border-radius: 5px;
+}
+
+.content-jantina #lelaki{
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 17px;
+    top: 23px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #FFFFFF;
+
+}
+
+.content-jantina #perempuan{
+    position: absolute;
+    width: 57px;
+    height: 20px;
+    left: 8px;
+    top: 86px;
+    
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #FFFFFF;
+
+}
+
+.w3-bar-block1 {
+    position: absolute;
+    width: 106px;
+    height: 96px;
+    left: 88px;
+    top: 17px;
+
+}
+
+.w3-bar-item-lelaki{
+    position: absolute;
+    width: 106px;  /*link to database percentage*/
+    height: 30px;
+    left: 0px;
+    top: 0px;
+
+    background: #1173B0;
+}
+
+.w3-bar-item-perempuan{
+    position: absolute;
+    width: 94px;  /*link to database percentage*/
+    height: 30px;
+    left: 0px;
+    top: 66px;
+
+    background: #5ECEFE;
+}
+
+#lelaki_num{
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    top: 23px;
+    right: 62px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #FFD25F;
+
+}
+
+#lelaki_per{
+    position: absolute;
+    width: 36px;
+    height: 15px;
+    top: 23px;
+    right: 15px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #EDD9A4;
+
+
+}
+
+#perempuan_num{
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    top: 87px;
+    right: 62px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #FFD25F;
+
+}
+
+#perempuan_per{
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    top: 87px;
+    right: 17px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #EDD9A4;
+
+}
+
+.w3-bar-item-lelaki img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 7px;
+    right: 3px;
+}
+
+.w3-bar-item-perempuan img{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 7px;
+    right: 3px;
+}
+
+.Warganegara #warganegara{
+    position: absolute;
+    width: 68px;
+    height: 20px;
+    left: 37px;
+    top: 282px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+}
+
+.content-warganegara{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 125px;
+    left:24px;
+    top: 302px;
+
+    background: #1E1E1E;
+    border: 1px solid #1745E8;
+    box-shadow: 0px 4px 4px rgba(250, 201, 201, 0.25);
+    border-radius: 5px;
+
+}
+
+.semi-donut{
+    position: absolute;
+    width: 123px;
+    height: 61.5px;
+    left: 98px;
+    top: 26px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.border{
+    --percentage: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 123px;
+    height: 123px;
+    border: 40px solid;
+    box-sizing: border-box;
+    border-color: #FFC5C5 #FFC5C5 #FF6767 #FF6767;
+    border-radius: 50%;
+    transform: rotate( calc( 1deg * ( -45 + var(--percentage) * 1.8 ) ) );
+    overflow: hidden;
+}
+
+#war{
+    position: absolute;
+    width: 68px;
+    height: 20px;
+    left: 14px;
+    top: 43px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #FFFFFF;
+}
+
+#war_num{
+    position: absolute;
+    width: 47px;
+    height: 20px;
+    left: 20px;
+    top: 63px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #FFD25F;
+
+}
+
+#war_per{
+    position: absolute;
+    width: 43px;
+    height: 20px;
+    left: 35px;
+    top: 78px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #EDD9A4;
+}
+
+#non-war{
+    position: absolute;
+    width: 68px;
+    height: 30px;
+    top: 34px;
+    right: 28px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* or 136% */
+
+
+    color: #FFFFFF;
+
+}
+
+#non-war_num{
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    top: 69px;
+    right: 51px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #FFD25F;
+
+}
+
+#non-war_per{
+    position: absolute;
+    width: 39px;
+    height: 20px;
+    left: 280px;
+    top: 69px;
+
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+
+
+    color: #EDD9A4;
+
+}
+
+#dashed1{
+    position: absolute;
+    width: 23.71px;
+    height: 0px;
+    left: 75px;
+    top: 75px;
+
+    border: 1px dashed #CDCDCD;
+    transform: rotate(45deg);
+
+
+}
+
+#dashed2{
+    position: absolute;
+    width: 24.21px;
+    height: 0px;
+    left: 219px;
+    top: 73px;
+
+    border: 1px dashed #CDCDCD;
+    transform: rotate(-51.71deg);
+}
+
+.Etnik #etnik{
+    position: absolute;
+    width: 26px;
+    height:15px;
+    left: 37px;
+    top: 448px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+
+}
+
+.content-etnik{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 192px;
+    left: 24px;
+    top: 467px;
+
+    background: #1E1E1E;
+    border: 1px solid #1745E8;
+    box-shadow: 0px 4px 4px rgba(250, 201, 201, 0.25);
+    border-radius: 5px;
+}
+
+.pie-chart{
+    --bumiputera-lain: 6.1;
+    --cina: 14.7;
+    --india: 3.7;
+    --lain-lain: 0.6;
+    position: absolute;
+    width: 142px;
+    height: 146px;
+    left: 19px;
+    top: 30px;
+    border-radius: 50%;
+    background-color: green;
+
+    background:conic-gradient(
+        #E3D45E 0 calc(1% * var(--bumiputera-lain)),
+        #C94E40 calc(1% * var(--bumiputera-lain)) calc(1% * var(--cina)), 
+        #FA7921 calc(1% * var(--cina)) calc(1% * var(--india)),
+        #8AC926 calc(1% * var(--india)) calc(1% * var(--lain-lain)),
+        #43BCCD calc(1% * var(--lain-lain)) 
+    );
+}
+
+.chart-summary #blue{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 35px;
+    right: 143px;
+
+    background: #43BCCD;
+}
+
+#bumi_melayu{
+    position: absolute;
+    width: 109px;
+    height: 15px;
+    top: 31px;
+    right: 22px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+
+}
+
+#bumi_melayu_num{
+    position: absolute;
+    width: 46px;
+    height: 15px;
+    top: 47px;
+    right: 79px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFD25F;
+
+}
+
+#bumi_melayu_per{
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 47px;
+    right: 22px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #EDD9AA;
+
+}
+
+.chart-summary #yellow{    
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 74px;
+    right: 143px;
+
+    background: #E3D45E;
+}
+
+
+#bumi_lain{
+    position: absolute;
+    width: 93px;
+    height: 15px;
+    top: 69px;
+    right: 38px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+
+}
+
+#bumi_lain_num{
+    position: absolute;
+    width: 36px;
+    height: 15px;
+    top: 87px;
+    right: 89px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFD25F;
+}
+
+#bumi_lain_per{
+    position: absolute;
+    width: 36px;
+    height: 15px;
+    top: 87px;
+    right: 40px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #EDD9A4;
+
+}
+
+.chart-summary #red{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 115px;
+    right: 143px;
+
+    background: #C94E40;
+}
+
+#cina{
+    position: absolute;
+    width: 22px;
+    height: 15px;
+    top: 112px;
+    right: 109px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+
+}
+
+#cina_num{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    top: 112px;
+    right: 64px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFD25F;
+
+}
+
+#cina_per{
+    position: absolute;
+    width: 41px;
+    height: 15px;
+    top: 112px;
+    right: 13px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #EDD9A4;
+}
+
+.chart-summary #orange{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 141px;
+    right: 143px;
+
+    background: #FA7921;
+}
+
+#india{
+    position: absolute;
+    width: 26px;
+    height: 15px;
+    top: 138px;
+    right: 105px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+
+}
+
+#india_num{
+    position: absolute;
+    width: 39px;
+    height: 15px;
+    top: 138px;
+    right: 58px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFD25F;
+
+}
+
+#india_per{
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    top: 138px;
+    right: 12px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #EDD9A4;
+
+}
+
+.chart-summary #green{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 167px;
+    right: 143px;
+
+    background: #8AC926;
+}
+
+#lain{
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 164px;
+    right: 86px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+
+}
+
+#lain_num{
+    position: absolute;
+    width: 29px;
+    height: 15px;
+    top: 163px;
+    right: 52px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFD25F;
+}
+
+#lain_per{
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    top: 163px;
+    right: 4px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #EDD9A4;
+
+}
+
+.Umur #umur{
+    position: absolute;
+    width: 27px;
+    height: 15px;
+    left: 37px;
+    top: 683px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+}
+
+.content-umur{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 192px;
+    left: 24px;
+    top: 702px;
+
+    background: #1E1E1E;
+    border: 1px solid #1745E8;
+    box-shadow: 0px 4px 4px rgba(250, 201, 201, 0.25);
+    border-radius: 5px;
+
+}
+
+#kanak{
+    position: absolute;
+    width: 58px;
+    height: 15px;
+    left: 27px;
+    top: 170px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+}
+
+#dewasa{
+    position: absolute;
+    width: 66px;
+    height: 15px;
+    left: 127px;
+    top: 170px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+}
+
+#orangtua{
+    position: absolute;
+    width: 57px;
+    height: 15px;
+    left: 235px;
+    top: 170px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFFFFF;
+}
+
+.w3-bar-block2{
+    position: absolute;
+    width: 256px;
+    height: 117px;
+    left: 32px;
+    top: 48px;
+}
+
+.w3-bar-item-kanak{
+    position: absolute;
+    width: 51px;
+    height: 48px;
+    left: 0px;
+    bottom: 0px;
+
+    background: #4895EF;
+}
+
+.w3-bar-item-dewasa{
+    position: absolute;
+    width: 51px;
+    height: 116px;
+    left: 102px;
+    bottom: 0px;
+
+    background: #46EBA8;
+}
+
+.w3-bar-item-orangtua{
+    position: absolute;
+    width: 51px;
+    height: 11px;
+    right: 0px;
+    bottom: 0px;
+
+    background: #705BFA;
+}
+
+.w3-bar-item-kanak img{
+    position: absolute;
+    width: 26px;
+    height: 19px;
+    left: 11px;
+    bottom: 7px;
+}
+
+.w3-bar-item-dewasa img{
+    position: absolute;
+    width: 44px;
+    height: 47px;
+    left: 3px;
+    bottom: 4px;
+}
+
+.w3-bar-item-orangtua img{
+    position: absolute;
+    width: 36px;
+    height: 43px;
+    left: 3px;
+    top: -50px;
+}
+
+#kanak_num{
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    left: 37px;
+    top: 38px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFD25F;
+
+}
+
+#kanak_per{
+    position: absolute;
+    width: 44px;
+    height: 15px;
+    left: 34px;
+    top: 53px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #EDD9A4;
+
+}
+
+#dewasa_num{
+    position: absolute;
+    width: 49px;
+    height: 15px;
+    left: 134px;
+    top: 8px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFD25F;
+
+}
+
+#dewasa_per{
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    left: 137px;
+    top: 23px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #EDD9A4;
+
+}
+
+#orangtua_num{
+    position: absolute;
+    width: 43px;
+    height: 15px;
+    left: 239px;
+    top: 64px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #FFD25F;
+
+}
+
+#orangtua_per{
+    position: absolute;
+    width: 39px;
+    height: 15px;
+    left: 241px;
+    top: 79px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    /* identical to box height, or 136% */
+
+
+    color: #EDD9A4;
+
+}
+
+.padding-bottom { 
+    position: absolute;
+    top: 943px;
+    left: 0px;
+    width: 375px;
+    height: 1px;
+
+}
+

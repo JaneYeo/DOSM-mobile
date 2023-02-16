@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "blueimp-md5": "^2.19.0",
+    "jquery": "^3.6.3",
+    "md5": "^2.3.0",
+    "md5-file": "^5.0.0"
+  }
+}

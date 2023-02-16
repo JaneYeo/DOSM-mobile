@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000000;
+}
+
+.HomeIcon .dot{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 22px;
+    top: 26px;
+   
+
+    background: rgba(97, 97, 97, 0.61);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.HomeIcon img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: 35px;
+}
+
+.header h3{
+    position: absolute;
+    width: 124px;
+    height: 20px;
+    left: 134px;
+    top: 76px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+
+    color: #DEDEDE;
+
+}
+
+.content-tenagaburuh{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 78px;
+    left: 24px;
+    top: 119px;
+
+    background: #1E1E1E;
+    border: 1px solid #8876FF;
+    box-shadow: 0px 4px 4px rgba(201, 241, 250, 0.25);
+    border-radius: 5px;
+}
+
+#buruh{
+    position: absolute;
+    width: 134px;
+    height: 50px;
+    left: 17px;
+    top: 13px;
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+
+
+    color: #FFFFFF;
+}
+
+#tenaga_year{
+    position: absolute;
+    left: 145px;
+    top: 32px;
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 133% */
+
+
+    color: #FFFFFF;
+
+}
+
+#buruh_num{
+    position: absolute;
+    width: 95px;
+    height: 20px;
+    left: 211px;
+    top: 29px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+
+
+    color: #FFD25F;
+
+}
+
+.content-gunatenaga{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 223px;
+    left: 24px;
+    top: 220px;
+
+    background: #1E1E1E;
+    border: 1px solid #8876FF;
+    box-shadow: 0px 4px 4px rgba(201, 241, 250, 0.25);
+    border-radius: 5px;
+}
+
+#pendudukbekerja{
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 12px;
+    top: 27px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* or 107% */
+
+
+    color: #FFFFFF;
+}
+
+#penganggur{
+    position: absolute;
+    width: 78px;
+    height: 15px;
+    left: 12px;
+    top: 74px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #FFFFFF;
+
+}
+
+#kadar_buruh{
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    left: 12px;
+    top: 118px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* or 107% */
+
+
+    color: #FFFFFF;
+
+}
+
+#kadar_penggangguran{
+    position: absolute;
+    width: 94px;
+    height: 30px;
+    left: 12px;
+    top: 171px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* or 107% */
+
+
+    color: #FFFFFF;
+}
+
+.w3-bar-block1{
+    position: absolute;
+    width: 125px;
+    height: 170px;
+    left: 134px;
+    top: 24px;
+}
+
+.w3-bar-item-pendudukbekerja{
+    position: absolute;
+    width: var(--pb);
+    height: 22px;
+    left: 0px;
+    top: 0px;
+
+    background: #355070;
+}
+
+.w3-bar-item-penganggur{
+    position: absolute;
+    width: calc(var(--p) * 3);
+    height: 22px;
+    left: 0px;
+    top: 46px;
+
+    background: #6D597A;
+}
+
+.w3-bar-item-kadar_buruh{
+    position: absolute;
+    width: var(--kb);
+    height: 22px;
+    left: 0px;
+    top: 94px;
+
+    background: #E56B6F;
+}
+
+.w3-bar-item-kadar_penggangguran{
+    position: absolute;
+    width: calc(var(--kp) * 3);
+    height: 22px;
+    left: 0px;
+    bottom: 0px;
+
+    background: #EAAC8B;
+}
+
+#pendudukbekerja_num{
+    position: absolute;
+    width: 53px;
+    height: 15px;
+    top: 28px;
+    right: 13px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+}
+
+#penganggur_num{
+    position: absolute;
+    width: 47px;
+    height: 15px;
+    top: 75px;
+    right: 13px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+
+}
+
+#buruh_per{
+    position: absolute;
+    width: 47px;
+    height: 15px;
+    top: 123px;
+    right: 13px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+}
+
+#pengangguran_per{
+    position: absolute;
+    width: 32px;
+    height: 15px;
+    top: 175px;
+    right: 13px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+}
+
+#gunatenaga{
+    position: absolute;
+    width: auto;
+    height: 15px;
+    left: 31px;
+    top: 481px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #FFFFFF;
+
+}
+
+.content-daerah{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 328px;
+    height: 378px;
+    left: 24px;
+    top: 499px;
+
+    background: #1E1E1E;
+    border: 1px solid #B8AEFF;
+    box-shadow: 0px 4px 4px rgba(201, 241, 250, 0.25);
+    border-radius: 5px;
+}
+
+div .btn{
+    margin-top: 20px;
+    margin-left: 11px;
+}
+
+button{
+    position: relative;
+    background: #00AEFF;
+    border-radius: 3px;
+    border: 0px;
+    margin-bottom: 8px;
+    margin-right: 1px;
+    width: 73px;
+    height: 21px;
+
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+button:hover{
+    background: #0392ff;
+}
+
+button:focus{
+    background: #1E1E1E;
+    border: 1px solid #00AEFF;
+    color: #00AEFF;
+}
+
+[id='cameron highlands']{
+    width: 117px;
+}
+
+#tenagaburuh{
+    position: absolute;
+    width: 133px;
+    height: 50px;
+    left: 10px;
+    top: 117px;
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* or 133% */
+
+
+    color: #FFFFFF;
+}
+
+#daerah{
+    position: absolute;
+    width: 55px;
+    height: 25px;
+    left: 78px;
+    top: 135px;
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+
+
+    color: #ffffff;
+    
+}
+
+#daerah_year{
+    position: absolute;
+    width: 34px;
+    height: 15px;
+    left: 164px;
+    top: 140px;
+
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height, or 100% */
+
+
+    color: #FFFFFF;
+
+}
+
+#daerah_num{
+    position: absolute;
+    width: auto;
+    height: 20px;
+    left: 219px;
+    top: 131px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+
+
+    color: #FFD25F;
+
+}
+
+#pendudukbekerja_daerah{
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 12px;
+    top: 182px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* or 107% */
+
+
+    color: #FFFFFF;
+
+}
+
+#penganggur_daerah{
+    position: absolute;
+    width: 98px;
+    height: 17px;
+    left: 12px;
+    top: 229px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* or 107% */
+
+
+    color: #FFFFFF;
+
+}
+
+#kadar_buruh_daerah{
+    position: absolute;
+    width: 145px;
+    height: 25px;
+    left: 12px;
+    top: 273px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* or 107% */
+
+
+    color: #FFFFFF;
+
+}
+
+#kadar_penggangguran_daerah{
+    position: absolute;
+    width: 105px;
+    height: 26px;
+    left: 12px;
+    top: 326px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* or 107% */
+
+
+    color: #FFFFFF;
+}
+
+.w3-bar-block2{
+    position: absolute;
+    width: 125px;
+    height: 174px;
+    left: 134px;
+    top: 179px;
+}
+
+.items{
+    animation: scale-up-hor-left 1.2s linear;
+}
+@keyframes scale-up-hor-left{
+    0%{
+        width: 0%;
+    }
+}
+
+.w3-bar-item-pendudukbekerja-daerah{
+    position: absolute;
+    width: var(--dpb);
+    height: 22px;
+    left: 0px;
+    top: 0px;
+
+    background: #1E6091;
+}
+
+.w3-bar-item-penganggur-daerah{
+    position: absolute;
+    width: calc(var(--dp) * 3);
+    height: 22px;
+    left: 0px;
+    top: 47px;
+
+    background: #1B98E0;
+}
+
+.w3-bar-item-kadar_buruh-daerah{
+    position: absolute;
+    width: var(--dkb);
+    height: 22px;
+    left: 0px;
+    top: 96px;
+
+    background: #52B69A;
+}
+
+.w3-bar-item-kadar_penggangguran-daerah{
+    position: absolute;
+    width: calc(var(--dkp) * 3);
+    height: 22px;
+    left: 0px;
+    bottom: 0px;
+
+    background: #D9ED92;
+}
+
+#pendudukbekerja_daerah_num{
+    position: absolute;
+    width: auto;
+    height: 15px;
+    top: 184px;
+    right: 13px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+}
+
+#penganggur_daerah_num{
+    position: absolute;
+    width: auto;
+    height: 15px;
+    top: 231px;
+    right: 13px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+}
+
+#buruh_daerah_per{
+    position: absolute;
+    width: auto;
+    height: 15px;
+    top: 279px;
+    right: 13px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+
+}
+
+#pengangguran_daerah_per{
+    position: absolute;
+    width: auto;
+    height: 15px;
+    top: 338px;
+    right: 13px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+}
+
+.padding-bottom { 
+    position: absolute;
+    top: 877px;
+    left: 0px;
+    width: 375px;
+    height: 66px;
+
+}

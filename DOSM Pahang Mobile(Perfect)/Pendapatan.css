@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000000;
+}
+
+.HomeIcon .dot{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 22px;
+    top: 26px;
+   
+
+    background: rgba(97, 97, 97, 0.61);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}
+
+.HomeIcon img{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: 35px;
+}
+
+.header h3{
+    position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 125px;
+    top: 72px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+
+    color: #DEDEDE;
+
+}
+
+#pendapatan{
+    position: absolute;
+    width: 250px;
+    height: 25px;
+    left: 38px;
+    top: 129px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    color: #FFFFFF;
+}
+
+#year{
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    left: 292px;
+    top: 132px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #FFFFFF;
+}
+
+.content-pendapatan{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 331px;
+    height: 231px;
+    left: 22px;
+    top: 162px;
+
+    background: #1E1E1E;
+    border: 1px solid #FFA200;
+    box-shadow: 0px 4px 4px rgba(201, 241, 250, 0.25);
+    border-radius: 5px;
+}
+
+#penengah{
+    position: absolute;
+    width: 65px;
+    height: 15px;
+    left: 66px;
+    bottom: 17px;
+    
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* or 107% */
+
+
+    color: #FFFFFF;
+}
+
+#purata{
+    position: absolute;
+    width: 43px;
+    height: 15px;
+    left: 209px;
+    bottom: 17px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #FFFFFF;
+}
+
+.w3-bar-block1{
+    position: absolute;
+    width: 185px;
+    height: 160px;
+    left: 79px;
+    bottom: 41px;
+}
+
+.w3-bar-item-penengah{
+    position: absolute;
+    width: 20px;
+    height: var(--penengah);
+    left: 0px;
+    bottom: 0px;
+
+    background: #C670FF;
+}
+
+.w3-bar-item-purata{
+    position: absolute;
+    width: 20px;
+    height: var(--penengah);
+    bottom: 0px;
+    right: 30px;
+
+    background: #4e1bdd;
+}
+
+.items{
+    transform: skewY(9deg);
+    animation: upscale 1.2s linear;
+}
+@keyframes upscale{
+    0%{
+        height: 0%;
+    }
+}
+
+.items::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -3px;
+    right: -100%;
+    transform: skewY(-18deg);
+    overflow: hidden;
+}
+
+.w3-bar-item-penengah::before, .w3-bar-item-penengah::after{
+    background-color: #aa4aeb;
+}
+
+.w3-bar-item-purata::before, .w3-bar-item-purata::after{
+    background-color: #3f13b8;
+}
+
+.items::after{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 25px;
+    transform: rotateX(104deg) rotateY(355deg) rotateZ(54deg);
+    top: -15.5px;
+    left: 2px;
+  
+}
+
+.penengah_RM{
+    position: absolute;
+    width: 61px;
+    height: 15px;
+    left: -13px;
+    top: -24px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+
+}
+
+.purata_RM{
+    position: absolute;
+    width: 62px;
+    height: 15px;
+    left: -11px;
+    top: -24px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+
+}
+
+.number{
+    position: absolute;
+    left: 8px;
+}
+
+#pendapatan_daerah{
+    position: absolute;
+    width: auto;
+    height: 15px;
+    left: 32px;
+    top: 448px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #FFFFFF;
+
+}
+
+.content-daerah{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 331px;
+    height: 316px;
+    left: 22px;
+    top: 465px;
+
+    background: #1E1E1E;
+    border: 1px solid #FFA200;
+    box-shadow: 0px 4px 4px rgba(201, 241, 250, 0.25);
+    border-radius: 5px;
+}
+
+div .btn{
+    margin-top: 20px;
+    margin-left: 11px;
+}
+
+button{
+    position: relative;
+    background: #00AEFF;
+    border-radius: 3px;
+    border: 0px;
+    margin-bottom: 8px;
+    margin-right: 1px;
+    width: 73px;
+    height: 21px;
+
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+button:hover{
+    background: #0392ff;
+}
+
+button:focus{
+    background: #1E1E1E;
+    border: 1px solid #00AEFF;
+    color: #00AEFF;
+}
+
+[id='Cameron Highlands']{
+    width: 117px;
+}
+
+#penengah_daerah{
+    position: absolute;
+    width: 65px;
+    height: 15px;
+    left: 66px;
+    bottom: 15px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #FFFFFF;
+
+}
+
+#purata_daerah{
+    position: absolute;
+    width: 43px;
+    height: 15px;
+    left: 209px;
+    bottom: 15px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #FFFFFF;
+}
+
+.w3-bar-block2{
+    position: absolute;
+    width: 185px;
+    height: 125px;
+    left: 79px;
+    bottom: 39px;
+}
+
+.w3-bar-item-penengah-daerah{
+    position: absolute;
+    width: 20px;
+    height: var(--dpenengah);
+    left: 0px;
+    bottom: 0px;
+
+    background: #e86868;
+}
+
+.w3-bar-item-purata-daerah{
+    position: absolute;
+    width: 20px;
+    height: var(--dpurata);
+    right: 30px;
+    bottom: 0px;
+
+    background: #d7862a;
+}
+
+.w3-bar-item-penengah-daerah::before, .w3-bar-item-penengah-daerah::after{
+    background-color: #db1212;
+}
+
+.w3-bar-item-purata-daerah::before, .w3-bar-item-purata-daerah::after{
+    background-color: #8c4b00;
+}
+
+.penengah_daerah_RM{
+    position: absolute;
+    width: 63px;
+    height: 15px;
+    left: -13px;
+    top: -24px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+
+}
+
+.purata_daerah_RM{
+    position: absolute;
+    width: 100px;;
+    height: 15px;
+    left: -11px;
+    top: -24px;
+
+    font-family: 'Hammersmith One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height, or 107% */
+
+
+    color: #EDD9A4;
+
+}
+
+.number{
+    position: absolute;
+    left: 8px;
+}
